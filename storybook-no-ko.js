@@ -43,12 +43,12 @@ describe('Storybook testing', () => {
             .then(() => {
                 cy.get(tests).should(() => {
                     const resultWithError = tests.filter(test => {
-                        cy.log(test.url);
                         return test.html === '';
+                    }).map(item => {
+                        return item.url;
                     });
-                    cy.log(resultWithError);
-                    Cypress.log(resultWithError);
-                    expect(resultWithError).to.have.lengthOf(0);
+
+                    expect(resultWithError).to.equal([]);
                 });
             });
     });
