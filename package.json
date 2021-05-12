@@ -1,0 +1,19 @@
+{
+  "name": "@romuleald/storybook-cypress-no-ko",
+  "version": "1.0.0",
+  "description": "Test with Cypress if all your stories render without error",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romuleald/storybook-cypress-no-ko.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romuleald/storybook-cypress-no-ko/issues"
+  },
+  "homepage": "https://github.com/romuleald/storybook-cypress-no-ko#readme"
+}
