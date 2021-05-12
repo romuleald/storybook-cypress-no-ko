@@ -1,6 +1,6 @@
 {
   "name": "@romuleald/storybook-cypress-no-ko",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Test with Cypress if all your stories render without error",
   "main": "index.js",
   "scripts": {
